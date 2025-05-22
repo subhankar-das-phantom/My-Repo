@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Digital Magazine - Home</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #1a1a1a;
+      color: white;
+      padding: 1.5rem 2rem;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #333;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      padding: 0.8rem 1rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 0.5rem 1.5rem;
+      transition: background 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #555;
+      border-radius: 5px;
+    }
+
+    .hero {
+      background: url('https://picsum.photos/1200/500') no-repeat center/cover;
+      height: 50vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 1px 1px 5px black;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+    }
+
+    .about {
+      background-color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .about h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .about p {
+      max-width: 800px;
+      margin: 0 auto;
+      font-size: 1rem;
+      color: #555;
+    }
+
+    .articles {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+    }
+
+    .article {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .article:hover {
+      transform: scale(1.02);
+    }
+
+    .article img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .article-content {
+      padding: 1rem;
+    }
+
+    .article-content h3 {
+      margin-bottom: 0.5rem;
+      font-size: 1.2rem;
+    }
+
+    .article-content p {
+      font-size: 0.95rem;
+      color: #666;
+    }
+
+    footer {
+      background-color: #1a1a1a;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+        @media (max-width: 1200px){
+            
+    .articles{
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            }
+
+        }
+
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+
+      .about h2 {
+        font-size: 1.5rem;
+      }
+
+      nav {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Digital Magazine</h1>
+    <p>Explore Tech | Lifestyle | Innovation</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="http://127.0.0.1:3000/PROJECT_COLLEGE/home.html">Home</a>
+    <a href="http://127.0.0.1:3000/PROJECT_COLLEGE/technology.html">Technology</a>
+    <a href="#">Lifestyle</a>
+    <a href="#">Business</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Welcome to the Future of Digital Reading</h1>
+  </section>
+
+  <!-- About Section -->
+  <section class="about">
+    <h2>About Us</h2>
+    <p>Digital Magazine brings you curated content on the latest trends in technology, lifestyle, and culture. Our mission is to inform, inspire, and empower our readers with insightful articles and stunning visuals.</p>
+  </section>
+
+  <!-- Articles Section -->
+  <section class="articles">
+    <div class="article">
+      <img src="https://picsum.photos/300/180?random=1" alt="Article 1">
+      <div class="article-content">
+        <h3>AI Trends Shaping 2025</h3>
+        <p>Explore how artificial intelligence is driving innovation in every industry.</p>
+      </div>
+    </div>
+
+    <div class="article">
+      <img src="https://picsum.photos/300/180?random=2" alt="Article 2">
+      <div class="article-content">
+        <h3>Wellness in the Digital Age</h3>
+        <p>Learn how to balance health and tech for a better lifestyle in the modern world.</p>
+      </div>
+    </div>
+
+    <div class="article">
+      <img src="https://picsum.photos/300/180?random=3" alt="Article 3">
+      <div class="article-content">
+        <h3>Remote Work Revolution</h3>
+        <p>Discover the impact of hybrid workspaces on global productivity and wellbeing.</p>
+      </div>
+    </div>
+
+    <div class="article">
+      <img src="https://picsum.photos/300/180?random=4" alt="Article 4">
+      <div class="article-content">
+        <h3>The Future of Green Tech</h3>
+        <p>How renewable energy and eco-design are shaping the world of tomorrow.</p>
+      </div>
+    </div>
+
+    <div class="article">
+      <img src="https://picsum.photos/300/180?random=5" alt="Article 5">
+      <div class="article-content">
+        <h3>Design Thinking for Innovation</h3>
+        <p>Uncover how leading companies use design to solve complex problems.</p>
+      </div>
+    </div>
+
+    <div class="article">
+      <img src="https://picsum.photos/300/180?random=6" alt="Article 6">
+      <div class="article-content">
+        <h3>Digital Nomad Lifestyle</h3>
+        <p>Explore the rise of remote travel work and the freedom it brings to modern life.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Digital Magazine. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
