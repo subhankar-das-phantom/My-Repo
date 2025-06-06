@@ -88,7 +88,20 @@ To run the digital magazine:
 
 ## 📷 Screenshots
 
-_Add screenshots of your pages here._
+### Home Page
+![Home Page](SCREENSHOTS/Screenshot%202025-06-06%20134547.png)
+
+### Technology Section
+![Technology Articles](SCREENSHOTS/Screenshot%202025-06-06%20134617.png)
+
+### Lifestyle Section
+![Lifestyle & Wellness](SCREENSHOTS/Screenshot%202025-06-06%20134633.png)
+
+### Business Section
+![Business Insights](SCREENSHOTS/Screenshot%202025-06-06%20134647.png)
+
+### Contact Page
+![Contact Us](SCREENSHOTS/Screenshot%202025-06-06%20134755.png)
 
 ---
 
