@@ -80,7 +80,7 @@ To run the digital magazine:
 
 ## 🙋‍♂️ Author
 
-**Your Name Here**  
+**Subhankar/Phantom**  
 📚 BCA 1st Year Student  
 💻 Passionate about Full-stack Web Development & Digital Publishing
 
